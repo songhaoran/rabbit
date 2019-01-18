@@ -10,7 +10,7 @@ public class ConnectionUtil {
 
     public static Connection getConnection() throws Exception{
         ConnectionFactory connectionFactory = new ConnectionFactory();
-        connectionFactory.setHost("39.107.65.108");
+        connectionFactory.setHost("");
 //        connectionFactory.setPort(15672);
 //        connectionFactory.setUsername("song");
 //        connectionFactory.setPassword("song");
